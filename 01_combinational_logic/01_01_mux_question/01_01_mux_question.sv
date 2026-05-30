@@ -27,6 +27,6 @@ module mux_4_1
   // Task:
   // Using code for mux_2_1 as an example,
   // write code for 4:1 mux using "?:" operator
-
+  assign y = (sel=='d0)?d0:(sel=='d1)?d1:(sel=='d2)?d2:(sel=='d3)?d3:'d0;
 
 endmodule
