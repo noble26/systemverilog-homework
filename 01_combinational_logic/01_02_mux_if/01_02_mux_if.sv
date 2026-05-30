@@ -31,6 +31,10 @@ module mux_4_1
   // Task:
   // Using code for mux_2_1 as an example,
   // write code for 4:1 mux using the "if" statement
-
+  if (sel=='d3) 
+    y = d3;
+  else if (sel =='d2)
+  else if (sel == 'd1)
+  else
 
 endmodule
